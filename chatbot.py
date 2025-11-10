@@ -1,4 +1,4 @@
-# TASK 4: Basic Chatbot
+# TASK 3: Basic Chatbot
 def chatbot_response(user_input):
     user_input = user_input.lower()  
 
@@ -24,3 +24,4 @@ while True:
     
     if "bye" in user_input.lower() or "goodbye" in user_input.lower():
         break
+
